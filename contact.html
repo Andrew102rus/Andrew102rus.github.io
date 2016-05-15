@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Контакты</title>
+
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+
+  <link rel="stylesheet" href="css/header.min.css">
+
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/fonts.min.css">
+  <link rel="stylesheet" href="css/main.min.css">
+
+</head>
+<body>
+<!-- Здесь пишем код -->
+<header>
+  <div class="container-fluid">
+    <a href="/">
+      <div id="logo">
+        <span>Мой</span> диван
+      </div>
+    </a>
+    <a href="#" class="toggle-mnu hidden-md hidden-lg"><span></span></a>
+    <ul class="hidden-sm hidden-xs">
+      <li><a href="/" >Главная</a></li>
+      <li><a href="stock.html">Акции</a></li>
+      <li><a href="#">Предложения</a></li>
+      <li><a href="about.html">О компании</a></li>
+      <li class="selected"><a href="contact.html">Контакты</a></li>
+    </ul>
+  </div>
+</header>
+<menu class="hidden-lg hidden-md">
+  <ul>
+    <li><a href="/">Главная</a></li>
+    <li><a href="stock.html">Акции</a></li>
+    <li><a href="/">Предложения</a></li>
+    <li><a href="about.html">О компании</a></li>
+    <li><a href="contact.html">Контакты</a></li>
+  </ul>
+</menu>
+
+<div class="info">
+  <div class="container-fluid">
+      <p><i class="fa fa-fax"></i> Контакты</p>
+      <ul>
+        <li><i class="fa fa-phone"></i> <span>+7</span> 967 922 59 39</li>
+        <li><i class="fa fa-clock-o"></i> 09:00 - 17:00 Пн-ПТ</li>
+      </ul>
+  </div>
+</div>
+<div class="content">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="item bg-img">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2302.333545497925!2d56.001351316036555!3d54.756522075850036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43d939ede741feb9%3A0x54d87748f5e23155!2z0KHQv9C-0YDRgtC40LLQvdCw0Y8!5e0!3m2!1sru!2sru!4v1463271531309" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+      </div>
+      <div class="col-xs-12">
+        <div class="item">
+          <form action="//formspree.io/mail.ru@bk.ru" target="_blank" class="main-form" novalidate method="post">
+            <div class="control-group">
+              <label for="name" class="control-label"><span>*</span>Ваше имя:</label>
+              <div class="controls">
+                <input type="text" name="name" id="name" required placeholder="Ваше имя"   data-validation-required-message=
+                        "Ваше имя" />
+                <p class="help-block"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label"><span>*</span>Ваш E-mail:</label>
+              <div class="controls">
+                <input name="email" type="email" placeholder="Ваш E-mail" data-validation-required-message=
+                        "Ваш E-mail"
+                       data-validation-email-message="Не корректно введен E-mail" />
+                <p class="help-block"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label"><span>*</span>Ваше сообщение:</label>
+              <div class="controls">
+                      <textarea name="message" placeholder="Ваш сообщение"
+                                data-validation-required-message="Ваше сообщение"></textarea>
+                <p class="help-block"></p>
+              </div>
+            </div>
+            <button class="button-small">Отправить</button>
+          </form>
+        </div>
+
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6">Разработка и техническая реализация: <span>Кнутсон А.</span></div>
+    <div class="col-md-6">Все права защищены © 2016</div>
+  </div>
+  <div class="row">
+    <ul>
+      <li><a href="/"><i class="fa fa-vk"></i></a></li>
+      <li><a href="/"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="/"><i class="fa fa-google"></i></a></li>
+    </ul>
+  </div>
+</div>
+</footer>
+
+<div class="hidden"></div>
+
+<!--[if lt IE 9]>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+
+<script src="js/libs.min.js"></script>
+<script src="js/common.min.js"></script>
+
+</body>
+</html>
